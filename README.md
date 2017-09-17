@@ -19,3 +19,8 @@ yarn test
 https://kodaktor.ru/g/lr_yandextestclick
 
 
+Ответ:
+
+https://homework-goss-js.herokuapp.com/ NodeJS приложение для тестирования
+
+https://ide.c9.io/greshnick007/edu_project Тестирование приложения

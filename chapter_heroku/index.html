@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head><title>test</title>
+   <meta charset="utf-8">
+   <meta author="Станислав Сивинский">
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="https://kodaktor.ru/js/jquery.query-object.js"></script> 
+ </head>
+ <body>
+   <button id="Get">Get</button>
+    <h3 id="response"></h3>
+   <script>{
+  const init= (gmail='no' ) => /^([a-z]{3,})@(yandex\.ru)$/.test(gmail);
+  let button = document.getElementById('Get');
+  
+  button.addEventListener("click", (e)=>{
+    console.log("s");
+     $(()=>$(`h3#response`).text ( init($.query.get('test')) ? 'yes' : 'no' ));
+  });
+
+     
+}</script>
+ </body>
+</html>
